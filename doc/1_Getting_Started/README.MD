@@ -61,7 +61,7 @@ Start with this before proceeding to the OS setup
 7. Download [nRF utils](https://www.nordicsemi.com/Products/Development-tools/nRF-Util)
 8. Change the directory in your terminal to Downloads `cd ~/Downloads`
 9. Make nrfutils executable `chmod +x nrfutil`
-10. Move nrfutils to your local bin `mv nrfutil ~/.local/bin/`. If this folder does not exist create it `mkdir -p ~/.local/bin` and add it to your path `echo; echo 'export $PATH=$PATH:$HOME/.local/bin' >> ~/.zprofile && source ~/.zprofile`.
+10. Move nrfutils to your local bin `mv nrfutil ~/.local/bin/`. If this folder does not exist create it `mkdir -p ~/.local/bin` and add it to your path `echo; echo 'export PATH=$PATH:$HOME/.local/bin' >> ~/.zprofile && source ~/.zprofile`.
 11. Open a new terminal
 12. Run `nrfutil install device`
 13. Change the current directory to your user directory: `cd ~`
